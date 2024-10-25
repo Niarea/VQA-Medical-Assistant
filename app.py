@@ -13,7 +13,7 @@ from transformers import AutoModel, AutoTokenizer
 
 # Configuration for image classification model
 class_names = ['Calculus', 'Dental Caries', 'Gingivitis', 'Hypodontia', 'Tooth Discoloration']
-cnn_model = load_model('models/new_model2.h5')
+cnn_model = load_model('Model3.keras')
 
 # Argparser
 parser = argparse.ArgumentParser(description='demo')
